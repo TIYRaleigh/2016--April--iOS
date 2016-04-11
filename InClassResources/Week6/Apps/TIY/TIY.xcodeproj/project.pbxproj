@@ -1,0 +1,560 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		DFB6B08D1ACADB21004452DF /* Mogenerator */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = DFB6B08E1ACADB21004452DF /* Build configuration list for PBXAggregateTarget "Mogenerator" */;
+			buildPhases = (
+				DFB6B0911ACADB4F004452DF /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = Mogenerator;
+			productName = Mogenerator;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		DFB6B0691ACAD786004452DF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DFB6B0681ACAD786004452DF /* main.m */; };
+		DFB6B06C1ACAD786004452DF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DFB6B06B1ACAD786004452DF /* AppDelegate.m */; };
+		DFB6B0721ACAD786004452DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFB6B0701ACAD786004452DF /* Main.storyboard */; };
+		DFB6B0741ACAD786004452DF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFB6B0731ACAD786004452DF /* Images.xcassets */; };
+		DFB6B0771ACAD786004452DF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFB6B0751ACAD786004452DF /* LaunchScreen.xib */; };
+		DFB6B0831ACAD786004452DF /* TIYTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DFB6B0821ACAD786004452DF /* TIYTests.m */; };
+		DFB6B0941ACADCEF004452DF /* TIYModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DFB6B0921ACADCEF004452DF /* TIYModel.xcdatamodeld */; };
+		DFB6B0991ACAE68A004452DF /* _Instructor.m in Sources */ = {isa = PBXBuildFile; fileRef = DFB6B0961ACAE68A004452DF /* _Instructor.m */; };
+		DFB6B09A1ACAE68A004452DF /* _Student.m in Sources */ = {isa = PBXBuildFile; fileRef = DFB6B0981ACAE68A004452DF /* _Student.m */; };
+		DFB6B09F1ACAE6B3004452DF /* Instructor.m in Sources */ = {isa = PBXBuildFile; fileRef = DFB6B09C1ACAE6B3004452DF /* Instructor.m */; };
+		DFB6B0A01ACAE6B3004452DF /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = DFB6B09E1ACAE6B3004452DF /* Student.m */; };
+		DFB6B0A51ACAE9F6004452DF /* CoreDataStack.m in Sources */ = {isa = PBXBuildFile; fileRef = DFB6B0A41ACAE9F6004452DF /* CoreDataStack.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		DFB6B0A91ACAF12E004452DF /* StudentsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFB6B0A81ACAF12E004452DF /* StudentsTableViewController.m */; };
+		DFB6B0AC1ACAF20C004452DF /* StudentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DFB6B0AB1ACAF20C004452DF /* StudentCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DFB6B07D1ACAD786004452DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DFB6B05B1ACAD786004452DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFB6B0621ACAD786004452DF;
+			remoteInfo = TIY;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DFB6B0631ACAD786004452DF /* TIY.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TIY.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFB6B0671ACAD786004452DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFB6B0681ACAD786004452DF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DFB6B06A1ACAD786004452DF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DFB6B06B1ACAD786004452DF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DFB6B0711ACAD786004452DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DFB6B0731ACAD786004452DF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DFB6B0761ACAD786004452DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		DFB6B07C1ACAD786004452DF /* TIYTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TIYTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFB6B0811ACAD786004452DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFB6B0821ACAD786004452DF /* TIYTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TIYTests.m; sourceTree = "<group>"; };
+		DFB6B0931ACADCEF004452DF /* TIYModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TIYModel.xcdatamodel; sourceTree = "<group>"; };
+		DFB6B0951ACAE68A004452DF /* _Instructor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = _Instructor.h; path = MOGenerated/_Instructor.h; sourceTree = "<group>"; };
+		DFB6B0961ACAE68A004452DF /* _Instructor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = _Instructor.m; path = MOGenerated/_Instructor.m; sourceTree = "<group>"; };
+		DFB6B0971ACAE68A004452DF /* _Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = _Student.h; path = MOGenerated/_Student.h; sourceTree = "<group>"; };
+		DFB6B0981ACAE68A004452DF /* _Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = _Student.m; path = MOGenerated/_Student.m; sourceTree = "<group>"; };
+		DFB6B09B1ACAE6B3004452DF /* Instructor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Instructor.h; path = Classes/Instructor.h; sourceTree = "<group>"; };
+		DFB6B09C1ACAE6B3004452DF /* Instructor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Instructor.m; path = Classes/Instructor.m; sourceTree = "<group>"; };
+		DFB6B09D1ACAE6B3004452DF /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Student.h; path = Classes/Student.h; sourceTree = "<group>"; };
+		DFB6B09E1ACAE6B3004452DF /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Student.m; path = Classes/Student.m; sourceTree = "<group>"; };
+		DFB6B0A31ACAE9F6004452DF /* CoreDataStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataStack.h; sourceTree = "<group>"; };
+		DFB6B0A41ACAE9F6004452DF /* CoreDataStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataStack.m; sourceTree = "<group>"; };
+		DFB6B0A71ACAF12E004452DF /* StudentsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudentsTableViewController.h; sourceTree = "<group>"; };
+		DFB6B0A81ACAF12E004452DF /* StudentsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudentsTableViewController.m; sourceTree = "<group>"; };
+		DFB6B0AA1ACAF20C004452DF /* StudentCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudentCell.h; sourceTree = "<group>"; };
+		DFB6B0AB1ACAF20C004452DF /* StudentCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudentCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DFB6B0601ACAD786004452DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFB6B0791ACAD786004452DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DFB6B05A1ACAD786004452DF = {
+			isa = PBXGroup;
+			children = (
+				DFB6B0651ACAD786004452DF /* TIY */,
+				DFB6B07F1ACAD786004452DF /* TIYTests */,
+				DFB6B0641ACAD786004452DF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DFB6B0641ACAD786004452DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DFB6B0631ACAD786004452DF /* TIY.app */,
+				DFB6B07C1ACAD786004452DF /* TIYTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DFB6B0651ACAD786004452DF /* TIY */ = {
+			isa = PBXGroup;
+			children = (
+				DFB6B0A61ACAEA1A004452DF /* Libraries */,
+				DFB6B0A11ACAE842004452DF /* Core Data Model Classes */,
+				DFB6B06A1ACAD786004452DF /* AppDelegate.h */,
+				DFB6B06B1ACAD786004452DF /* AppDelegate.m */,
+				DFB6B0A71ACAF12E004452DF /* StudentsTableViewController.h */,
+				DFB6B0A81ACAF12E004452DF /* StudentsTableViewController.m */,
+				DFB6B0701ACAD786004452DF /* Main.storyboard */,
+				DFB6B0731ACAD786004452DF /* Images.xcassets */,
+				DFB6B0751ACAD786004452DF /* LaunchScreen.xib */,
+				DFB6B0661ACAD786004452DF /* Supporting Files */,
+				DFB6B0921ACADCEF004452DF /* TIYModel.xcdatamodeld */,
+				DFB6B0AA1ACAF20C004452DF /* StudentCell.h */,
+				DFB6B0AB1ACAF20C004452DF /* StudentCell.m */,
+			);
+			path = TIY;
+			sourceTree = "<group>";
+		};
+		DFB6B0661ACAD786004452DF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DFB6B0671ACAD786004452DF /* Info.plist */,
+				DFB6B0681ACAD786004452DF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DFB6B07F1ACAD786004452DF /* TIYTests */ = {
+			isa = PBXGroup;
+			children = (
+				DFB6B0821ACAD786004452DF /* TIYTests.m */,
+				DFB6B0801ACAD786004452DF /* Supporting Files */,
+			);
+			path = TIYTests;
+			sourceTree = "<group>";
+		};
+		DFB6B0801ACAD786004452DF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DFB6B0811ACAD786004452DF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DFB6B0A11ACAE842004452DF /* Core Data Model Classes */ = {
+			isa = PBXGroup;
+			children = (
+				DFB6B09B1ACAE6B3004452DF /* Instructor.h */,
+				DFB6B09C1ACAE6B3004452DF /* Instructor.m */,
+				DFB6B09D1ACAE6B3004452DF /* Student.h */,
+				DFB6B09E1ACAE6B3004452DF /* Student.m */,
+				DFB6B0A21ACAE869004452DF /* Generated - DO NOT EDIT */,
+			);
+			name = "Core Data Model Classes";
+			sourceTree = "<group>";
+		};
+		DFB6B0A21ACAE869004452DF /* Generated - DO NOT EDIT */ = {
+			isa = PBXGroup;
+			children = (
+				DFB6B0951ACAE68A004452DF /* _Instructor.h */,
+				DFB6B0961ACAE68A004452DF /* _Instructor.m */,
+				DFB6B0971ACAE68A004452DF /* _Student.h */,
+				DFB6B0981ACAE68A004452DF /* _Student.m */,
+			);
+			name = "Generated - DO NOT EDIT";
+			sourceTree = "<group>";
+		};
+		DFB6B0A61ACAEA1A004452DF /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				DFB6B0A31ACAE9F6004452DF /* CoreDataStack.h */,
+				DFB6B0A41ACAE9F6004452DF /* CoreDataStack.m */,
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DFB6B0621ACAD786004452DF /* TIY */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFB6B0861ACAD786004452DF /* Build configuration list for PBXNativeTarget "TIY" */;
+			buildPhases = (
+				DFB6B05F1ACAD786004452DF /* Sources */,
+				DFB6B0601ACAD786004452DF /* Frameworks */,
+				DFB6B0611ACAD786004452DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TIY;
+			productName = TIY;
+			productReference = DFB6B0631ACAD786004452DF /* TIY.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DFB6B07B1ACAD786004452DF /* TIYTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFB6B0891ACAD786004452DF /* Build configuration list for PBXNativeTarget "TIYTests" */;
+			buildPhases = (
+				DFB6B0781ACAD786004452DF /* Sources */,
+				DFB6B0791ACAD786004452DF /* Frameworks */,
+				DFB6B07A1ACAD786004452DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DFB6B07E1ACAD786004452DF /* PBXTargetDependency */,
+			);
+			name = TIYTests;
+			productName = TIYTests;
+			productReference = DFB6B07C1ACAD786004452DF /* TIYTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DFB6B05B1ACAD786004452DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "The Iron Yard";
+				TargetAttributes = {
+					DFB6B0621ACAD786004452DF = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					DFB6B07B1ACAD786004452DF = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = DFB6B0621ACAD786004452DF;
+					};
+					DFB6B08D1ACADB21004452DF = {
+						CreatedOnToolsVersion = 6.2;
+					};
+				};
+			};
+			buildConfigurationList = DFB6B05E1ACAD786004452DF /* Build configuration list for PBXProject "TIY" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DFB6B05A1ACAD786004452DF;
+			productRefGroup = DFB6B0641ACAD786004452DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DFB6B0621ACAD786004452DF /* TIY */,
+				DFB6B07B1ACAD786004452DF /* TIYTests */,
+				DFB6B08D1ACADB21004452DF /* Mogenerator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DFB6B0611ACAD786004452DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFB6B0721ACAD786004452DF /* Main.storyboard in Resources */,
+				DFB6B0771ACAD786004452DF /* LaunchScreen.xib in Resources */,
+				DFB6B0741ACAD786004452DF /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFB6B07A1ACAD786004452DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DFB6B0911ACADB4F004452DF /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "PATH=${PATH}:/usr/local/bin\ncd \"${PROJECT_DIR}/TIY\"\nmogenerator --human-dir Classes --machine-dir MOGenerated --model TIYModel.xcdatamodeld/TIYModel.xcdatamodel --template-var arc=true";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DFB6B05F1ACAD786004452DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFB6B0941ACADCEF004452DF /* TIYModel.xcdatamodeld in Sources */,
+				DFB6B0AC1ACAF20C004452DF /* StudentCell.m in Sources */,
+				DFB6B09F1ACAE6B3004452DF /* Instructor.m in Sources */,
+				DFB6B0A01ACAE6B3004452DF /* Student.m in Sources */,
+				DFB6B0991ACAE68A004452DF /* _Instructor.m in Sources */,
+				DFB6B09A1ACAE68A004452DF /* _Student.m in Sources */,
+				DFB6B06C1ACAD786004452DF /* AppDelegate.m in Sources */,
+				DFB6B0A91ACAF12E004452DF /* StudentsTableViewController.m in Sources */,
+				DFB6B0691ACAD786004452DF /* main.m in Sources */,
+				DFB6B0A51ACAE9F6004452DF /* CoreDataStack.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFB6B0781ACAD786004452DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFB6B0831ACAD786004452DF /* TIYTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DFB6B07E1ACAD786004452DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DFB6B0621ACAD786004452DF /* TIY */;
+			targetProxy = DFB6B07D1ACAD786004452DF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DFB6B0701ACAD786004452DF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFB6B0711ACAD786004452DF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DFB6B0751ACAD786004452DF /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFB6B0761ACAD786004452DF /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DFB6B0841ACAD786004452DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DFB6B0851ACAD786004452DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DFB6B0871ACAD786004452DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TIY/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DFB6B0881ACAD786004452DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TIY/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DFB6B08A1ACAD786004452DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TIYTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TIY.app/TIY";
+			};
+			name = Debug;
+		};
+		DFB6B08B1ACAD786004452DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TIYTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TIY.app/TIY";
+			};
+			name = Release;
+		};
+		DFB6B08F1ACADB21004452DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DFB6B0901ACADB21004452DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DFB6B05E1ACAD786004452DF /* Build configuration list for PBXProject "TIY" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFB6B0841ACAD786004452DF /* Debug */,
+				DFB6B0851ACAD786004452DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFB6B0861ACAD786004452DF /* Build configuration list for PBXNativeTarget "TIY" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFB6B0871ACAD786004452DF /* Debug */,
+				DFB6B0881ACAD786004452DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DFB6B0891ACAD786004452DF /* Build configuration list for PBXNativeTarget "TIYTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFB6B08A1ACAD786004452DF /* Debug */,
+				DFB6B08B1ACAD786004452DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DFB6B08E1ACADB21004452DF /* Build configuration list for PBXAggregateTarget "Mogenerator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFB6B08F1ACADB21004452DF /* Debug */,
+				DFB6B0901ACADB21004452DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DFB6B0921ACADCEF004452DF /* TIYModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DFB6B0931ACADCEF004452DF /* TIYModel.xcdatamodel */,
+			);
+			currentVersion = DFB6B0931ACADCEF004452DF /* TIYModel.xcdatamodel */;
+			path = TIYModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DFB6B05B1ACAD786004452DF /* Project object */;
+}

@@ -1,22 +1,16 @@
-# Fall 2015 Mobile Development
+# Spring 2015 Mobile Development
 
-Hello everyone! I'm excited to get started with class and I hope you are too. Over the next 12 weeks we will cover Swift, Objective-C, the iOS SDK, and a bunch of other concepts too numerous to name. We will also tackle problems and challenges that software engineers face everyday around the world. This is all to get you to begin to think like an engineer. It will be difficult, but I hope also a lot of fun. By the end of this course you all should be able to build iOS applications for both yourself and your future clients/employers. I encourage you all to push towards releasing at least 1 app in the App Store. There really is nothing more satisfying than having an app that is publicly available and something you can point to as an execution of your vision and hard work.
+Hello everyone! I'm very excited to get started with class and I hope you are too. Over the next 12 weeks we will cover Objective-C, Swift, the iOS SDK, and a bunch of other concepts too numerous to name. We will also tackle problems and challenges that software engineers face everyday around the world. This is all to get you to begin to think like an engineer. It will be difficult, but I hope also a lot of fun. By the end of this course you all should be able to build iOS applications for yourself as well as your future clients and/or employers. I will encourage you all to push towards releasing at least 1 app in the App Store. There really is nothing more satisfying than having an app that is publicly available and something you can point to as an execution of your vision and hard work.
 
-## This is Github
+As you can tell by reading this, we will use Github for all assignments, notes, and any other info that needs to be shared with the whole class. As a first step, please star this repository. It will create a bookmark in your account and also allow me to see who's following the repository so I can allow you access.
 
-First, you need to [sign up for a free Github account](http://github.com/signup), find [the class project](https://github.com/TIYRaleigh/2016--April--iOS) and "star" it ([more on "starring" and notifications](https://help.github.com/articles/about-stars)). Once you do, I'll invite you to [a group for our class](https://github.com/orgs/TIYRaleigh/teams/2016--April--iOS), so watch for an email from Github!
+You will notice a homework directory in this repository. This is where all homework assignments will be posted. Some will be actual Xcode projects while others will be just some source code and/or tips/hints used to solve the problem at hand. Homework 00 is the first assignment and it will be due at midnight February 22nd, the night before our class starts. Don't worry, there isn't any programming involved, just some setup stuff. Please be sure to get HW 00 done before class. It will allow us to get right to building apps!
 
-Next, get acquainted by poking around a bit, paying special attention to [the class wiki](https://github.com/TIYRaleigh/2016--April--iOS/wiki). There's some important information there about how to turn in assignments and how I'll grade them. Afterward, get started on **This is Heavy**, _due the first day of class_.
+Feel free to reach out to me on Slack once the class starts with any questions you may have. You will also use Slack to converse and get help from your classmates. We'll get all that set up on the first day of class.
 
-You will notice a series of folders with numbers in their titles in the repo. This is where all homework assignments, notes, the day's agenda, etc. will be posted. We will have one folder for each lecutre day. Some will contain actual Xcode projects while others will be just some source code and/or tips/hints used to solve the problem at hand.
+You're all on your way to being iOS developers!
 
-Throughout the course, you'll open, close, and contribute to Issues and Pull Requests ([more about "issues" on Github](https://help.github.com/articles/about-issues)). By the end, you'll all be Github experts!
+###### Ben | [jgohlke.com](http://www.jgohlke.com)
 
-Feel free to reach out to me on Slack (what's that?) once the class starts with any questions you may have. You will also use Slack to converse and get help from your classmates. Don't worry, we'll get all that set up on the first day of class.
-
-You're about to take the first step of many on the road to becoming a full fledged software engineer!
-
-###### Jeff
-
-* Twitter: [@jeffro_ligon](http://www.twitter.com/jeffro_ligon)
-* Github: [@jtligon](http://www.github.com/jtligon)
+* Twitter: [@akhenaten](http://www.twitter.com/akhenaten)
+* Github: [@jcgohlke](http://www.github.com/jcgohlke)

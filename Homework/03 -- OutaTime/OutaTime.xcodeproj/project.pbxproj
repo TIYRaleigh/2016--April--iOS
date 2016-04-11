@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F35CB0341A928FE9000F5151 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F35CB0331A928FE9000F5151 /* main.m */; };
+		F35CB0371A928FE9000F5151 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F35CB0361A928FE9000F5151 /* AppDelegate.m */; };
+		F35CB03D1A928FE9000F5151 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F35CB03B1A928FE9000F5151 /* Main.storyboard */; };
+		F35CB03F1A928FE9000F5151 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F35CB03E1A928FE9000F5151 /* Images.xcassets */; };
+		F35CB0421A928FE9000F5151 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F35CB0401A928FE9000F5151 /* LaunchScreen.xib */; };
+		F35CB04E1A928FE9000F5151 /* OutaTimeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F35CB04D1A928FE9000F5151 /* OutaTimeTests.m */; };
+		F35CB0591A929019000F5151 /* DatePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F35CB0581A929019000F5151 /* DatePickerViewController.m */; };
+		F35CB05C1A929045000F5151 /* TimeCircuitsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F35CB05B1A929045000F5151 /* TimeCircuitsViewController.m */; };
+		F3BDE2631A93890600BE2D1C /* digital-7.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F3BDE2621A93890600BE2D1C /* digital-7.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F35CB0481A928FE9000F5151 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F35CB0261A928FE9000F5151 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F35CB02D1A928FE9000F5151;
+			remoteInfo = OutaTime;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F35CB02E1A928FE9000F5151 /* OutaTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OutaTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F35CB0321A928FE9000F5151 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F35CB0331A928FE9000F5151 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F35CB0351A928FE9000F5151 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F35CB0361A928FE9000F5151 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F35CB03C1A928FE9000F5151 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F35CB03E1A928FE9000F5151 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F35CB0411A928FE9000F5151 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F35CB0471A928FE9000F5151 /* OutaTimeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OutaTimeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F35CB04C1A928FE9000F5151 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F35CB04D1A928FE9000F5151 /* OutaTimeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OutaTimeTests.m; sourceTree = "<group>"; };
+		F35CB0571A929019000F5151 /* DatePickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatePickerViewController.h; sourceTree = "<group>"; };
+		F35CB0581A929019000F5151 /* DatePickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatePickerViewController.m; sourceTree = "<group>"; };
+		F35CB05A1A929045000F5151 /* TimeCircuitsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeCircuitsViewController.h; sourceTree = "<group>"; };
+		F35CB05B1A929045000F5151 /* TimeCircuitsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeCircuitsViewController.m; sourceTree = "<group>"; };
+		F3BDE2621A93890600BE2D1C /* digital-7.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "digital-7.ttf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F35CB02B1A928FE9000F5151 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F35CB0441A928FE9000F5151 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F35CB0251A928FE9000F5151 = {
+			isa = PBXGroup;
+			children = (
+				F35CB0301A928FE9000F5151 /* OutaTime */,
+				F35CB04A1A928FE9000F5151 /* OutaTimeTests */,
+				F35CB02F1A928FE9000F5151 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F35CB02F1A928FE9000F5151 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F35CB02E1A928FE9000F5151 /* OutaTime.app */,
+				F35CB0471A928FE9000F5151 /* OutaTimeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F35CB0301A928FE9000F5151 /* OutaTime */ = {
+			isa = PBXGroup;
+			children = (
+				F3BDE2621A93890600BE2D1C /* digital-7.ttf */,
+				F35CB0351A928FE9000F5151 /* AppDelegate.h */,
+				F35CB0361A928FE9000F5151 /* AppDelegate.m */,
+				F35CB05A1A929045000F5151 /* TimeCircuitsViewController.h */,
+				F35CB05B1A929045000F5151 /* TimeCircuitsViewController.m */,
+				F35CB0571A929019000F5151 /* DatePickerViewController.h */,
+				F35CB0581A929019000F5151 /* DatePickerViewController.m */,
+				F35CB03B1A928FE9000F5151 /* Main.storyboard */,
+				F35CB03E1A928FE9000F5151 /* Images.xcassets */,
+				F35CB0401A928FE9000F5151 /* LaunchScreen.xib */,
+				F35CB0311A928FE9000F5151 /* Supporting Files */,
+			);
+			path = OutaTime;
+			sourceTree = "<group>";
+		};
+		F35CB0311A928FE9000F5151 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F35CB0321A928FE9000F5151 /* Info.plist */,
+				F35CB0331A928FE9000F5151 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F35CB04A1A928FE9000F5151 /* OutaTimeTests */ = {
+			isa = PBXGroup;
+			children = (
+				F35CB04D1A928FE9000F5151 /* OutaTimeTests.m */,
+				F35CB04B1A928FE9000F5151 /* Supporting Files */,
+			);
+			path = OutaTimeTests;
+			sourceTree = "<group>";
+		};
+		F35CB04B1A928FE9000F5151 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F35CB04C1A928FE9000F5151 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F35CB02D1A928FE9000F5151 /* OutaTime */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F35CB0511A928FE9000F5151 /* Build configuration list for PBXNativeTarget "OutaTime" */;
+			buildPhases = (
+				F35CB02A1A928FE9000F5151 /* Sources */,
+				F35CB02B1A928FE9000F5151 /* Frameworks */,
+				F35CB02C1A928FE9000F5151 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OutaTime;
+			productName = OutaTime;
+			productReference = F35CB02E1A928FE9000F5151 /* OutaTime.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F35CB0461A928FE9000F5151 /* OutaTimeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F35CB0541A928FE9000F5151 /* Build configuration list for PBXNativeTarget "OutaTimeTests" */;
+			buildPhases = (
+				F35CB0431A928FE9000F5151 /* Sources */,
+				F35CB0441A928FE9000F5151 /* Frameworks */,
+				F35CB0451A928FE9000F5151 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F35CB0491A928FE9000F5151 /* PBXTargetDependency */,
+			);
+			name = OutaTimeTests;
+			productName = OutaTimeTests;
+			productReference = F35CB0471A928FE9000F5151 /* OutaTimeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F35CB0261A928FE9000F5151 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "The Iron Yard";
+				TargetAttributes = {
+					F35CB02D1A928FE9000F5151 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					F35CB0461A928FE9000F5151 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = F35CB02D1A928FE9000F5151;
+					};
+				};
+			};
+			buildConfigurationList = F35CB0291A928FE9000F5151 /* Build configuration list for PBXProject "OutaTime" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F35CB0251A928FE9000F5151;
+			productRefGroup = F35CB02F1A928FE9000F5151 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F35CB02D1A928FE9000F5151 /* OutaTime */,
+				F35CB0461A928FE9000F5151 /* OutaTimeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F35CB02C1A928FE9000F5151 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F35CB03D1A928FE9000F5151 /* Main.storyboard in Resources */,
+				F35CB0421A928FE9000F5151 /* LaunchScreen.xib in Resources */,
+				F35CB03F1A928FE9000F5151 /* Images.xcassets in Resources */,
+				F3BDE2631A93890600BE2D1C /* digital-7.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F35CB0451A928FE9000F5151 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F35CB02A1A928FE9000F5151 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F35CB0591A929019000F5151 /* DatePickerViewController.m in Sources */,
+				F35CB0371A928FE9000F5151 /* AppDelegate.m in Sources */,
+				F35CB0341A928FE9000F5151 /* main.m in Sources */,
+				F35CB05C1A929045000F5151 /* TimeCircuitsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F35CB0431A928FE9000F5151 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F35CB04E1A928FE9000F5151 /* OutaTimeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F35CB0491A928FE9000F5151 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F35CB02D1A928FE9000F5151 /* OutaTime */;
+			targetProxy = F35CB0481A928FE9000F5151 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F35CB03B1A928FE9000F5151 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F35CB03C1A928FE9000F5151 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F35CB0401A928FE9000F5151 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F35CB0411A928FE9000F5151 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F35CB04F1A928FE9000F5151 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F35CB0501A928FE9000F5151 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F35CB0521A928FE9000F5151 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = OutaTime/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F35CB0531A928FE9000F5151 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = OutaTime/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F35CB0551A928FE9000F5151 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = OutaTimeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OutaTime.app/OutaTime";
+			};
+			name = Debug;
+		};
+		F35CB0561A928FE9000F5151 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = OutaTimeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OutaTime.app/OutaTime";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F35CB0291A928FE9000F5151 /* Build configuration list for PBXProject "OutaTime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F35CB04F1A928FE9000F5151 /* Debug */,
+				F35CB0501A928FE9000F5151 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F35CB0511A928FE9000F5151 /* Build configuration list for PBXNativeTarget "OutaTime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F35CB0521A928FE9000F5151 /* Debug */,
+				F35CB0531A928FE9000F5151 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F35CB0541A928FE9000F5151 /* Build configuration list for PBXNativeTarget "OutaTimeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F35CB0551A928FE9000F5151 /* Debug */,
+				F35CB0561A928FE9000F5151 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F35CB0261A928FE9000F5151 /* Project object */;
+}

@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF271FCE1AD3188300AA4671 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DF271FCD1AD3188300AA4671 /* main.m */; };
+		DF271FD11AD3188300AA4671 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DF271FD01AD3188300AA4671 /* AppDelegate.m */; };
+		DF271FD91AD3188300AA4671 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF271FD81AD3188300AA4671 /* Images.xcassets */; };
+		DF271FDC1AD3188300AA4671 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF271FDA1AD3188300AA4671 /* LaunchScreen.xib */; };
+		DF271FE81AD3188300AA4671 /* PickitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DF271FE71AD3188300AA4671 /* PickitTests.m */; };
+		DF271FF31AD362D700AA4671 /* PinsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF271FF21AD362D700AA4671 /* PinsViewController.m */; };
+		DF74AEEB1AD378C9009FDE2F /* Picmark.m in Sources */ = {isa = PBXBuildFile; fileRef = DF74AEEA1AD378C9009FDE2F /* Picmark.m */; };
+		DF74AEEE1AD38ACE009FDE2F /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF74AEED1AD38ACE009FDE2F /* CloudKit.framework */; };
+		DF74AEF11AD38CB7009FDE2F /* ImageDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF74AEF01AD38CB7009FDE2F /* ImageDetailViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DF271FE21AD3188300AA4671 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF271FC01AD3188300AA4671 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF271FC71AD3188300AA4671;
+			remoteInfo = Pickit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DF271FC81AD3188300AA4671 /* Pickit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pickit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF271FCC1AD3188300AA4671 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF271FCD1AD3188300AA4671 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DF271FCF1AD3188300AA4671 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DF271FD01AD3188300AA4671 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DF271FD81AD3188300AA4671 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DF271FDB1AD3188300AA4671 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		DF271FE11AD3188300AA4671 /* PickitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PickitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF271FE61AD3188300AA4671 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF271FE71AD3188300AA4671 /* PickitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PickitTests.m; sourceTree = "<group>"; };
+		DF271FF11AD362D700AA4671 /* PinsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PinsViewController.h; sourceTree = "<group>"; };
+		DF271FF21AD362D700AA4671 /* PinsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PinsViewController.m; sourceTree = "<group>"; };
+		DF74AEE91AD378C9009FDE2F /* Picmark.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Picmark.h; sourceTree = "<group>"; };
+		DF74AEEA1AD378C9009FDE2F /* Picmark.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Picmark.m; sourceTree = "<group>"; };
+		DF74AEEC1AD38AC3009FDE2F /* Pickit.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Pickit.entitlements; sourceTree = "<group>"; };
+		DF74AEED1AD38ACE009FDE2F /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+		DF74AEEF1AD38CB7009FDE2F /* ImageDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageDetailViewController.h; sourceTree = "<group>"; };
+		DF74AEF01AD38CB7009FDE2F /* ImageDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageDetailViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF271FC51AD3188300AA4671 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF74AEEE1AD38ACE009FDE2F /* CloudKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF271FDE1AD3188300AA4671 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DF271FBF1AD3188300AA4671 = {
+			isa = PBXGroup;
+			children = (
+				DF74AEED1AD38ACE009FDE2F /* CloudKit.framework */,
+				DF271FCA1AD3188300AA4671 /* Pickit */,
+				DF271FE41AD3188300AA4671 /* PickitTests */,
+				DF271FC91AD3188300AA4671 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DF271FC91AD3188300AA4671 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF271FC81AD3188300AA4671 /* Pickit.app */,
+				DF271FE11AD3188300AA4671 /* PickitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF271FCA1AD3188300AA4671 /* Pickit */ = {
+			isa = PBXGroup;
+			children = (
+				DF271FCF1AD3188300AA4671 /* AppDelegate.h */,
+				DF271FD01AD3188300AA4671 /* AppDelegate.m */,
+				DF271FF11AD362D700AA4671 /* PinsViewController.h */,
+				DF271FF21AD362D700AA4671 /* PinsViewController.m */,
+				DF74AEEF1AD38CB7009FDE2F /* ImageDetailViewController.h */,
+				DF74AEF01AD38CB7009FDE2F /* ImageDetailViewController.m */,
+				DF74AEE91AD378C9009FDE2F /* Picmark.h */,
+				DF74AEEA1AD378C9009FDE2F /* Picmark.m */,
+				DF271FD81AD3188300AA4671 /* Images.xcassets */,
+				DF271FDA1AD3188300AA4671 /* LaunchScreen.xib */,
+				DF271FCB1AD3188300AA4671 /* Supporting Files */,
+			);
+			path = Pickit;
+			sourceTree = "<group>";
+		};
+		DF271FCB1AD3188300AA4671 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DF74AEEC1AD38AC3009FDE2F /* Pickit.entitlements */,
+				DF271FCC1AD3188300AA4671 /* Info.plist */,
+				DF271FCD1AD3188300AA4671 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DF271FE41AD3188300AA4671 /* PickitTests */ = {
+			isa = PBXGroup;
+			children = (
+				DF271FE71AD3188300AA4671 /* PickitTests.m */,
+				DF271FE51AD3188300AA4671 /* Supporting Files */,
+			);
+			path = PickitTests;
+			sourceTree = "<group>";
+		};
+		DF271FE51AD3188300AA4671 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DF271FE61AD3188300AA4671 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF271FC71AD3188300AA4671 /* Pickit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF271FEB1AD3188300AA4671 /* Build configuration list for PBXNativeTarget "Pickit" */;
+			buildPhases = (
+				DF271FC41AD3188300AA4671 /* Sources */,
+				DF271FC51AD3188300AA4671 /* Frameworks */,
+				DF271FC61AD3188300AA4671 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pickit;
+			productName = Pickit;
+			productReference = DF271FC81AD3188300AA4671 /* Pickit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DF271FE01AD3188300AA4671 /* PickitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF271FEE1AD3188300AA4671 /* Build configuration list for PBXNativeTarget "PickitTests" */;
+			buildPhases = (
+				DF271FDD1AD3188300AA4671 /* Sources */,
+				DF271FDE1AD3188300AA4671 /* Frameworks */,
+				DF271FDF1AD3188300AA4671 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF271FE31AD3188300AA4671 /* PBXTargetDependency */,
+			);
+			name = PickitTests;
+			productName = PickitTests;
+			productReference = DF271FE11AD3188300AA4671 /* PickitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF271FC01AD3188300AA4671 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "The Iron Yard";
+				TargetAttributes = {
+					DF271FC71AD3188300AA4671 = {
+						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = S25RE6SHJT;
+						SystemCapabilities = {
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
+					};
+					DF271FE01AD3188300AA4671 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = DF271FC71AD3188300AA4671;
+					};
+				};
+			};
+			buildConfigurationList = DF271FC31AD3188300AA4671 /* Build configuration list for PBXProject "Pickit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DF271FBF1AD3188300AA4671;
+			productRefGroup = DF271FC91AD3188300AA4671 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF271FC71AD3188300AA4671 /* Pickit */,
+				DF271FE01AD3188300AA4671 /* PickitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF271FC61AD3188300AA4671 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF271FDC1AD3188300AA4671 /* LaunchScreen.xib in Resources */,
+				DF271FD91AD3188300AA4671 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF271FDF1AD3188300AA4671 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF271FC41AD3188300AA4671 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF271FF31AD362D700AA4671 /* PinsViewController.m in Sources */,
+				DF74AEF11AD38CB7009FDE2F /* ImageDetailViewController.m in Sources */,
+				DF271FD11AD3188300AA4671 /* AppDelegate.m in Sources */,
+				DF271FCE1AD3188300AA4671 /* main.m in Sources */,
+				DF74AEEB1AD378C9009FDE2F /* Picmark.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF271FDD1AD3188300AA4671 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF271FE81AD3188300AA4671 /* PickitTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DF271FE31AD3188300AA4671 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF271FC71AD3188300AA4671 /* Pickit */;
+			targetProxy = DF271FE21AD3188300AA4671 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DF271FDA1AD3188300AA4671 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF271FDB1AD3188300AA4671 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DF271FE91AD3188300AA4671 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DF271FEA1AD3188300AA4671 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF271FEC1AD3188300AA4671 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Pickit/Pickit.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = Pickit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		DF271FED1AD3188300AA4671 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Pickit/Pickit.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = Pickit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		DF271FEF1AD3188300AA4671 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PickitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pickit.app/Pickit";
+			};
+			name = Debug;
+		};
+		DF271FF01AD3188300AA4671 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PickitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pickit.app/Pickit";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF271FC31AD3188300AA4671 /* Build configuration list for PBXProject "Pickit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF271FE91AD3188300AA4671 /* Debug */,
+				DF271FEA1AD3188300AA4671 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF271FEB1AD3188300AA4671 /* Build configuration list for PBXNativeTarget "Pickit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF271FEC1AD3188300AA4671 /* Debug */,
+				DF271FED1AD3188300AA4671 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF271FEE1AD3188300AA4671 /* Build configuration list for PBXNativeTarget "PickitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF271FEF1AD3188300AA4671 /* Debug */,
+				DF271FF01AD3188300AA4671 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DF271FC01AD3188300AA4671 /* Project object */;
+}

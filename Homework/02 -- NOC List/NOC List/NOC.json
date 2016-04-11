@@ -1,0 +1,57 @@
+[
+    {
+        "coverName": "Ethan Hunt",
+        "realName": "Tom Cruise",
+        "accessLevel": 8
+    },
+    {
+        "coverName": "Jim Phelps",
+        "realName": "Jon Voight",
+        "accessLevel": 9
+    },
+    {
+        "coverName": "Claire Phelps",
+        "realName": "Emmanuelle Beart",
+        "accessLevel": 5
+    },
+    {
+        "coverName": "Eugene Kittridge",
+        "realName": "Henry Czerny",
+        "accessLevel": 10
+    },
+    {
+        "coverName": "Franz Krieger",
+        "realName": "Jean Reno",
+        "accessLevel": 4
+    },
+    {
+        "coverName": "Luther Stickell",
+        "realName": "Ving Rhames",
+        "accessLevel": 4
+    },
+    {
+        "coverName": "Sarah Davies",
+        "realName": "Kristin Scott Thomas",
+        "accessLevel": 5
+    },
+    {
+        "coverName": "Max RotGrab",
+        "realName": "Vanessa Redgrave",
+        "accessLevel": 4
+    },
+    {
+        "coverName": "Hannah Williams",
+        "realName": "Ingeborga Dapkūnaitė",
+        "accessLevel": 5
+    },
+    {
+        "coverName": "Jack Harmon",
+        "realName": "Emilio Estevez",
+        "accessLevel": 6
+    },
+    {
+        "coverName": "Frank Barnes",
+        "realName": "Dale Dye",
+        "accessLevel": 9
+    }
+]

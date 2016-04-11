@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6751" systemVersion="14C1514" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="U5m-wy-PQH">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+    </dependencies>
+    <scenes>
+        <!--Students Table View Controller-->
+        <scene sceneID="Ag0-xS-h5S">
+            <objects>
+                <tableViewController id="JXF-kB-vgA" customClass="StudentsTableViewController" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="lbJ-i5-MKU">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="StudentCell" id="c8r-0W-H9j" customClass="StudentCell">
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="c8r-0W-H9j" id="N0S-hp-ZQf">
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="age" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="WyT-kR-Z01">
+                                            <rect key="frame" x="492" y="7" width="100" height="30"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="100" id="csU-Zf-ceS"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                            <textInputTraits key="textInputTraits"/>
+                                            <connections>
+                                                <outlet property="delegate" destination="JXF-kB-vgA" id="AfI-0h-GTn"/>
+                                            </connections>
+                                        </textField>
+                                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="name" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="SN0-vb-zLn">
+                                            <rect key="frame" x="8" y="7" width="150" height="30"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="150" id="aLC-Xc-qAH"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                            <textInputTraits key="textInputTraits"/>
+                                            <connections>
+                                                <outlet property="delegate" destination="JXF-kB-vgA" id="JaH-yC-9Ip"/>
+                                            </connections>
+                                        </textField>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstAttribute="centerY" secondItem="WyT-kR-Z01" secondAttribute="centerY" constant="-0.5" id="81p-Vb-Gwi"/>
+                                        <constraint firstAttribute="centerY" secondItem="SN0-vb-zLn" secondAttribute="centerY" id="K6S-rT-fWH"/>
+                                        <constraint firstItem="SN0-vb-zLn" firstAttribute="leading" secondItem="N0S-hp-ZQf" secondAttribute="leading" constant="8" id="rdq-V5-gcH"/>
+                                        <constraint firstAttribute="trailing" secondItem="WyT-kR-Z01" secondAttribute="trailing" constant="8" id="xDH-Nz-EKH"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="ageTextField" destination="WyT-kR-Z01" id="6X3-3y-QrZ"/>
+                                    <outlet property="nameTextField" destination="SN0-vb-zLn" id="yva-W4-KGT"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="JXF-kB-vgA" id="vbJ-Go-KcW"/>
+                            <outlet property="delegate" destination="JXF-kB-vgA" id="QAB-FV-7mT"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="5nS-yb-ae9">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="E6d-SE-jKg">
+                            <connections>
+                                <action selector="addNewStudent:" destination="JXF-kB-vgA" id="u5E-kL-HKR"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HXt-m9-M9o" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1490" y="333"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="M9G-0n-HPq">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="U5m-wy-PQH" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Fz5-s9-uzW">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="JXF-kB-vgA" kind="relationship" relationship="rootViewController" id="uxH-nu-5Mh"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cxD-3m-DK3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="678" y="333"/>
+        </scene>
+    </scenes>
+</document>

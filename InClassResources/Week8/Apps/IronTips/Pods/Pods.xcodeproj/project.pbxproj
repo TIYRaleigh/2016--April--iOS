@@ -1,0 +1,561 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01244271B023B663AE9F4769 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11C73EDAF3FA0DB1D67863E8 /* Foundation.framework */; };
+		0BEFDDD3AD82A4A413BD1443 /* BFTaskCompletionSource.h in Headers */ = {isa = PBXBuildFile; fileRef = E6B14819BAA984FD58CCDE24 /* BFTaskCompletionSource.h */; };
+		0CF919E6D45D017628414C2C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11C73EDAF3FA0DB1D67863E8 /* Foundation.framework */; };
+		10856FDEB8F31FD86064E064 /* BFURL_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DF923855AEB7F1417673B31 /* BFURL_Internal.h */; };
+		18CEB1BE400D807CFA3C4FBA /* BFAppLinkReturnToRefererView.h in Headers */ = {isa = PBXBuildFile; fileRef = 66C5EB9FD2116768A60DDB39 /* BFAppLinkReturnToRefererView.h */; };
+		1A3F8F1C975C359A48DA361B /* BFWebViewAppLinkResolver.m in Sources */ = {isa = PBXBuildFile; fileRef = 72B1319A757712A493CAD18D /* BFWebViewAppLinkResolver.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		1A91BA5FA50B89E14CFB9345 /* BFTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FC82841594C6F785A42D62E /* BFTask.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		1BF0212F9213600B905F651C /* BFURL.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F998E6A5D90BAC2BD25C25C /* BFURL.h */; };
+		1BF2A4332D95600BD259ABC8 /* BFMeasurementEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 6529971CF89FAD19AA7ECFCD /* BFMeasurementEvent.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		2754D1EDB5250F5B80FA1413 /* Bolts.h in Headers */ = {isa = PBXBuildFile; fileRef = D25B4B38483E860AFAEBB146 /* Bolts.h */; };
+		2C23B143B53BDD5DF1439FBF /* BFMeasurementEvent_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = B8AAB6A83B45F687F2A1D0B1 /* BFMeasurementEvent_Internal.h */; };
+		48A965D8C2181ABC412D14FB /* Bolts.m in Sources */ = {isa = PBXBuildFile; fileRef = 49D904A2FB184213C97D33F4 /* Bolts.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		4CF38B861C369C567C838DA0 /* BFAppLinkReturnToRefererController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8526E906DB5B29AF1F62A673 /* BFAppLinkReturnToRefererController.h */; };
+		4FE125D97A88444D45DA08C2 /* BFAppLink.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B827D4A31A1CCA7C2BA2FA1 /* BFAppLink.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		57F8774313E7D127351F366E /* BFAppLinkNavigation.m in Sources */ = {isa = PBXBuildFile; fileRef = BBF46924BF6230032F149CCA /* BFAppLinkNavigation.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		5D78FB5704CBB3E7DDFBF93B /* BFAppLinkReturnToRefererView_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 88D29C63E32837D63804A146 /* BFAppLinkReturnToRefererView_Internal.h */; };
+		63917AF920956C340E9DE9B6 /* BFAppLinkTarget.m in Sources */ = {isa = PBXBuildFile; fileRef = 9429FB566A75929CB79A9132 /* BFAppLinkTarget.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		664BB47B82DC4285F98B978B /* BoltsVersion.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EAFE39362BE4421309CCB0C /* BoltsVersion.h */; };
+		66A1DD7421BA32AF10A92F4C /* BFURL.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D4F0C114852CF7D291461DC /* BFURL.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		6716D6812D2BD9EC861C94F3 /* BFTask.h in Headers */ = {isa = PBXBuildFile; fileRef = 9004D924EED9B7BD94DFF2B6 /* BFTask.h */; };
+		6E45F00B10430F4D3EC5ADFF /* Pods-IronTips-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 30A734CAA1B4AF57DE888E50 /* Pods-IronTips-dummy.m */; };
+		7A2AB63DA0CA50412B778239 /* BFMeasurementEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = CC15484C040BD9B38DD1E97B /* BFMeasurementEvent.h */; };
+		7B3B79CA934E05F547022E0C /* BFWebViewAppLinkResolver.h in Headers */ = {isa = PBXBuildFile; fileRef = BCA4F30192334A8FE809462D /* BFWebViewAppLinkResolver.h */; };
+		89CDFB3846263CE2D3A5728B /* BFExecutor.m in Sources */ = {isa = PBXBuildFile; fileRef = 5149D6B1E2A10A5587C7F2D8 /* BFExecutor.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		8B71876416501FE178B0003F /* BFAppLink_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C21734AB7803A4216BE13CD /* BFAppLink_Internal.h */; };
+		8F341A58CC3B0376F584B0CA /* BFTaskCompletionSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 69F77A9FEE279D2DECA2739E /* BFTaskCompletionSource.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		9E742DF61D965FFAADDE105F /* BFExecutor.h in Headers */ = {isa = PBXBuildFile; fileRef = 32DA1F5AF206A80C8B130F6C /* BFExecutor.h */; };
+		AF587A951AC0433DF22CD499 /* BFAppLinkReturnToRefererController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE07370A83E9348B29ED9B8C /* BFAppLinkReturnToRefererController.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		B5E0D51CB1D076509CA7BCEF /* BFAppLinkResolving.h in Headers */ = {isa = PBXBuildFile; fileRef = 366033D64B00BEAF04DFE7E7 /* BFAppLinkResolving.h */; };
+		BAFC02140E0791616309C3B1 /* BFAppLinkNavigation.h in Headers */ = {isa = PBXBuildFile; fileRef = 2EC4DFDBBE7C933F12F41285 /* BFAppLinkNavigation.h */; };
+		BE4BC7ABAE206B92693289D0 /* BFAppLinkReturnToRefererView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E8E938824CD126C4CD505E8 /* BFAppLinkReturnToRefererView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		EC4050B6DA1B6F710A8F138B /* Pods-IronTips-Bolts-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B2DBED07946375C90CDA639 /* Pods-IronTips-Bolts-dummy.m */; };
+		F2D72247885A9A4EC497E2E2 /* BFAppLinkTarget.h in Headers */ = {isa = PBXBuildFile; fileRef = 89B9CEF3871AABC1A4EFCBCD /* BFAppLinkTarget.h */; };
+		FCD4EBA1AD9BD3FD06AD490F /* BFAppLink.h in Headers */ = {isa = PBXBuildFile; fileRef = C3ABE46D711135DC38B8531E /* BFAppLink.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B3372CF8478477DD178DEBB0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB7DB6480141F137E9BD8E58 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B8C48107EAF26EBF8A6E2C0C;
+			remoteInfo = "Pods-IronTips-Bolts";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		084C7DBE07D658F5C05B20A2 /* Pods-IronTips-Bolts-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IronTips-Bolts-Private.xcconfig"; sourceTree = "<group>"; };
+		0E8E938824CD126C4CD505E8 /* BFAppLinkReturnToRefererView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BFAppLinkReturnToRefererView.m; path = Bolts/iOS/BFAppLinkReturnToRefererView.m; sourceTree = "<group>"; };
+		11C73EDAF3FA0DB1D67863E8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		2DF923855AEB7F1417673B31 /* BFURL_Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFURL_Internal.h; path = Bolts/iOS/BFURL_Internal.h; sourceTree = "<group>"; };
+		2EC4DFDBBE7C933F12F41285 /* BFAppLinkNavigation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFAppLinkNavigation.h; path = Bolts/iOS/BFAppLinkNavigation.h; sourceTree = "<group>"; };
+		30A734CAA1B4AF57DE888E50 /* Pods-IronTips-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-IronTips-dummy.m"; sourceTree = "<group>"; };
+		32DA1F5AF206A80C8B130F6C /* BFExecutor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFExecutor.h; path = Bolts/Common/BFExecutor.h; sourceTree = "<group>"; };
+		366033D64B00BEAF04DFE7E7 /* BFAppLinkResolving.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFAppLinkResolving.h; path = Bolts/iOS/BFAppLinkResolving.h; sourceTree = "<group>"; };
+		3B2DBED07946375C90CDA639 /* Pods-IronTips-Bolts-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-IronTips-Bolts-dummy.m"; sourceTree = "<group>"; };
+		47704726E0C600BF9A5D0D90 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		49D904A2FB184213C97D33F4 /* Bolts.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Bolts.m; path = Bolts/Common/Bolts.m; sourceTree = "<group>"; };
+		5149D6B1E2A10A5587C7F2D8 /* BFExecutor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BFExecutor.m; path = Bolts/Common/BFExecutor.m; sourceTree = "<group>"; };
+		6529971CF89FAD19AA7ECFCD /* BFMeasurementEvent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BFMeasurementEvent.m; path = Bolts/iOS/BFMeasurementEvent.m; sourceTree = "<group>"; };
+		66A5AF2D9810968AB71B6795 /* libPods-IronTips.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IronTips.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		66C5EB9FD2116768A60DDB39 /* BFAppLinkReturnToRefererView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFAppLinkReturnToRefererView.h; path = Bolts/iOS/BFAppLinkReturnToRefererView.h; sourceTree = "<group>"; };
+		6968C6F5FCB9B7D569222439 /* Pods-IronTips-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-IronTips-acknowledgements.markdown"; sourceTree = "<group>"; };
+		69F77A9FEE279D2DECA2739E /* BFTaskCompletionSource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BFTaskCompletionSource.m; path = Bolts/Common/BFTaskCompletionSource.m; sourceTree = "<group>"; };
+		6FC82841594C6F785A42D62E /* BFTask.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BFTask.m; path = Bolts/Common/BFTask.m; sourceTree = "<group>"; };
+		72B1319A757712A493CAD18D /* BFWebViewAppLinkResolver.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BFWebViewAppLinkResolver.m; path = Bolts/iOS/BFWebViewAppLinkResolver.m; sourceTree = "<group>"; };
+		7F998E6A5D90BAC2BD25C25C /* BFURL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFURL.h; path = Bolts/iOS/BFURL.h; sourceTree = "<group>"; };
+		80B8DA61A6D3DF9A52B60860 /* Pods-IronTips-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-IronTips-environment.h"; sourceTree = "<group>"; };
+		8526E906DB5B29AF1F62A673 /* BFAppLinkReturnToRefererController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFAppLinkReturnToRefererController.h; path = Bolts/iOS/BFAppLinkReturnToRefererController.h; sourceTree = "<group>"; };
+		88D29C63E32837D63804A146 /* BFAppLinkReturnToRefererView_Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFAppLinkReturnToRefererView_Internal.h; path = Bolts/iOS/BFAppLinkReturnToRefererView_Internal.h; sourceTree = "<group>"; };
+		89B9CEF3871AABC1A4EFCBCD /* BFAppLinkTarget.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFAppLinkTarget.h; path = Bolts/iOS/BFAppLinkTarget.h; sourceTree = "<group>"; };
+		8BA51D387E41F0B70183C82F /* Pods-IronTips-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-IronTips-resources.sh"; sourceTree = "<group>"; };
+		8C21734AB7803A4216BE13CD /* BFAppLink_Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFAppLink_Internal.h; path = Bolts/iOS/BFAppLink_Internal.h; sourceTree = "<group>"; };
+		8EAFE39362BE4421309CCB0C /* BoltsVersion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BoltsVersion.h; path = Bolts/Common/BoltsVersion.h; sourceTree = "<group>"; };
+		9004D924EED9B7BD94DFF2B6 /* BFTask.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFTask.h; path = Bolts/Common/BFTask.h; sourceTree = "<group>"; };
+		9429FB566A75929CB79A9132 /* BFAppLinkTarget.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BFAppLinkTarget.m; path = Bolts/iOS/BFAppLinkTarget.m; sourceTree = "<group>"; };
+		9B827D4A31A1CCA7C2BA2FA1 /* BFAppLink.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BFAppLink.m; path = Bolts/iOS/BFAppLink.m; sourceTree = "<group>"; };
+		9D4F0C114852CF7D291461DC /* BFURL.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BFURL.m; path = Bolts/iOS/BFURL.m; sourceTree = "<group>"; };
+		A64EDC985B8A8DB2CF014D69 /* Pods-IronTips-Bolts-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-IronTips-Bolts-prefix.pch"; sourceTree = "<group>"; };
+		AEC74B354403953E2738217E /* Pods-IronTips.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IronTips.release.xcconfig"; sourceTree = "<group>"; };
+		B8AAB6A83B45F687F2A1D0B1 /* BFMeasurementEvent_Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFMeasurementEvent_Internal.h; path = Bolts/iOS/BFMeasurementEvent_Internal.h; sourceTree = "<group>"; };
+		BBF46924BF6230032F149CCA /* BFAppLinkNavigation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BFAppLinkNavigation.m; path = Bolts/iOS/BFAppLinkNavigation.m; sourceTree = "<group>"; };
+		BCA4F30192334A8FE809462D /* BFWebViewAppLinkResolver.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFWebViewAppLinkResolver.h; path = Bolts/iOS/BFWebViewAppLinkResolver.h; sourceTree = "<group>"; };
+		C3ABE46D711135DC38B8531E /* BFAppLink.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFAppLink.h; path = Bolts/iOS/BFAppLink.h; sourceTree = "<group>"; };
+		CC15484C040BD9B38DD1E97B /* BFMeasurementEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFMeasurementEvent.h; path = Bolts/iOS/BFMeasurementEvent.h; sourceTree = "<group>"; };
+		D25B4B38483E860AFAEBB146 /* Bolts.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Bolts.h; path = Bolts/Common/Bolts.h; sourceTree = "<group>"; };
+		DCEEE34AFB928A9257B7DCA8 /* Pods-IronTips-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-IronTips-acknowledgements.plist"; sourceTree = "<group>"; };
+		E6B14819BAA984FD58CCDE24 /* BFTaskCompletionSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFTaskCompletionSource.h; path = Bolts/Common/BFTaskCompletionSource.h; sourceTree = "<group>"; };
+		EB5AE3090D8EFD88A34B3D47 /* libPods-IronTips-Bolts.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IronTips-Bolts.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC637E77F88A32056E16BA27 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		F51CE4E02FDAD31E7D6ACE9F /* Pods-IronTips.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IronTips.debug.xcconfig"; sourceTree = "<group>"; };
+		F84EB3B256B1EBE8DC81A4B4 /* Pods-IronTips-Bolts.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IronTips-Bolts.xcconfig"; sourceTree = "<group>"; };
+		FE07370A83E9348B29ED9B8C /* BFAppLinkReturnToRefererController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BFAppLinkReturnToRefererController.m; path = Bolts/iOS/BFAppLinkReturnToRefererController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A0D6682ADC16D9A1C0F2A9FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01244271B023B663AE9F4769 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4CAAE8AB1693E27E9FCFA22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CF919E6D45D017628414C2C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E96DC4DD506517368272669 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F84EB3B256B1EBE8DC81A4B4 /* Pods-IronTips-Bolts.xcconfig */,
+				084C7DBE07D658F5C05B20A2 /* Pods-IronTips-Bolts-Private.xcconfig */,
+				3B2DBED07946375C90CDA639 /* Pods-IronTips-Bolts-dummy.m */,
+				A64EDC985B8A8DB2CF014D69 /* Pods-IronTips-Bolts-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-IronTips-Bolts";
+			sourceTree = "<group>";
+		};
+		24EC3FE38D93419D7454E702 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				66A5AF2D9810968AB71B6795 /* libPods-IronTips.a */,
+				EB5AE3090D8EFD88A34B3D47 /* libPods-IronTips-Bolts.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2629BA9F88C394EA13F77C9B = {
+			isa = PBXGroup;
+			children = (
+				47704726E0C600BF9A5D0D90 /* Podfile */,
+				6A8C713B879EFA582FE8C39C /* Frameworks */,
+				29F04D6DE1E26ABF23D9D42B /* Pods */,
+				24EC3FE38D93419D7454E702 /* Products */,
+				6B3D9BB226C73E22811A77B2 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		29F04D6DE1E26ABF23D9D42B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				86CEE508EF3A849F97B8ABF7 /* Bolts */,
+				F23427CA6E973BE7E98F86A8 /* Parse */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5D920DA510677EC192ED1F07 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				11C73EDAF3FA0DB1D67863E8 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6A8C713B879EFA582FE8C39C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5D920DA510677EC192ED1F07 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6B3D9BB226C73E22811A77B2 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				88892207E4811F9DE78CB5AC /* Pods-IronTips */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		86CEE508EF3A849F97B8ABF7 /* Bolts */ = {
+			isa = PBXGroup;
+			children = (
+				C3ABE46D711135DC38B8531E /* BFAppLink.h */,
+				9B827D4A31A1CCA7C2BA2FA1 /* BFAppLink.m */,
+				2EC4DFDBBE7C933F12F41285 /* BFAppLinkNavigation.h */,
+				BBF46924BF6230032F149CCA /* BFAppLinkNavigation.m */,
+				366033D64B00BEAF04DFE7E7 /* BFAppLinkResolving.h */,
+				8526E906DB5B29AF1F62A673 /* BFAppLinkReturnToRefererController.h */,
+				FE07370A83E9348B29ED9B8C /* BFAppLinkReturnToRefererController.m */,
+				66C5EB9FD2116768A60DDB39 /* BFAppLinkReturnToRefererView.h */,
+				0E8E938824CD126C4CD505E8 /* BFAppLinkReturnToRefererView.m */,
+				88D29C63E32837D63804A146 /* BFAppLinkReturnToRefererView_Internal.h */,
+				89B9CEF3871AABC1A4EFCBCD /* BFAppLinkTarget.h */,
+				9429FB566A75929CB79A9132 /* BFAppLinkTarget.m */,
+				8C21734AB7803A4216BE13CD /* BFAppLink_Internal.h */,
+				32DA1F5AF206A80C8B130F6C /* BFExecutor.h */,
+				5149D6B1E2A10A5587C7F2D8 /* BFExecutor.m */,
+				CC15484C040BD9B38DD1E97B /* BFMeasurementEvent.h */,
+				6529971CF89FAD19AA7ECFCD /* BFMeasurementEvent.m */,
+				B8AAB6A83B45F687F2A1D0B1 /* BFMeasurementEvent_Internal.h */,
+				9004D924EED9B7BD94DFF2B6 /* BFTask.h */,
+				6FC82841594C6F785A42D62E /* BFTask.m */,
+				E6B14819BAA984FD58CCDE24 /* BFTaskCompletionSource.h */,
+				69F77A9FEE279D2DECA2739E /* BFTaskCompletionSource.m */,
+				7F998E6A5D90BAC2BD25C25C /* BFURL.h */,
+				9D4F0C114852CF7D291461DC /* BFURL.m */,
+				2DF923855AEB7F1417673B31 /* BFURL_Internal.h */,
+				BCA4F30192334A8FE809462D /* BFWebViewAppLinkResolver.h */,
+				72B1319A757712A493CAD18D /* BFWebViewAppLinkResolver.m */,
+				D25B4B38483E860AFAEBB146 /* Bolts.h */,
+				49D904A2FB184213C97D33F4 /* Bolts.m */,
+				8EAFE39362BE4421309CCB0C /* BoltsVersion.h */,
+				1E96DC4DD506517368272669 /* Support Files */,
+			);
+			path = Bolts;
+			sourceTree = "<group>";
+		};
+		88892207E4811F9DE78CB5AC /* Pods-IronTips */ = {
+			isa = PBXGroup;
+			children = (
+				6968C6F5FCB9B7D569222439 /* Pods-IronTips-acknowledgements.markdown */,
+				DCEEE34AFB928A9257B7DCA8 /* Pods-IronTips-acknowledgements.plist */,
+				30A734CAA1B4AF57DE888E50 /* Pods-IronTips-dummy.m */,
+				80B8DA61A6D3DF9A52B60860 /* Pods-IronTips-environment.h */,
+				8BA51D387E41F0B70183C82F /* Pods-IronTips-resources.sh */,
+				F51CE4E02FDAD31E7D6ACE9F /* Pods-IronTips.debug.xcconfig */,
+				AEC74B354403953E2738217E /* Pods-IronTips.release.xcconfig */,
+			);
+			name = "Pods-IronTips";
+			path = "Target Support Files/Pods-IronTips";
+			sourceTree = "<group>";
+		};
+		F23427CA6E973BE7E98F86A8 /* Parse */ = {
+			isa = PBXGroup;
+			children = (
+				F9139E81506F0FAF36249C58 /* Frameworks */,
+			);
+			path = Parse;
+			sourceTree = "<group>";
+		};
+		F9139E81506F0FAF36249C58 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EC637E77F88A32056E16BA27 /* Parse.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		FA375FAD9FA6895A3DB8E1E1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCD4EBA1AD9BD3FD06AD490F /* BFAppLink.h in Headers */,
+				BAFC02140E0791616309C3B1 /* BFAppLinkNavigation.h in Headers */,
+				B5E0D51CB1D076509CA7BCEF /* BFAppLinkResolving.h in Headers */,
+				4CF38B861C369C567C838DA0 /* BFAppLinkReturnToRefererController.h in Headers */,
+				18CEB1BE400D807CFA3C4FBA /* BFAppLinkReturnToRefererView.h in Headers */,
+				5D78FB5704CBB3E7DDFBF93B /* BFAppLinkReturnToRefererView_Internal.h in Headers */,
+				F2D72247885A9A4EC497E2E2 /* BFAppLinkTarget.h in Headers */,
+				8B71876416501FE178B0003F /* BFAppLink_Internal.h in Headers */,
+				9E742DF61D965FFAADDE105F /* BFExecutor.h in Headers */,
+				7A2AB63DA0CA50412B778239 /* BFMeasurementEvent.h in Headers */,
+				2C23B143B53BDD5DF1439FBF /* BFMeasurementEvent_Internal.h in Headers */,
+				6716D6812D2BD9EC861C94F3 /* BFTask.h in Headers */,
+				0BEFDDD3AD82A4A413BD1443 /* BFTaskCompletionSource.h in Headers */,
+				1BF0212F9213600B905F651C /* BFURL.h in Headers */,
+				10856FDEB8F31FD86064E064 /* BFURL_Internal.h in Headers */,
+				7B3B79CA934E05F547022E0C /* BFWebViewAppLinkResolver.h in Headers */,
+				2754D1EDB5250F5B80FA1413 /* Bolts.h in Headers */,
+				664BB47B82DC4285F98B978B /* BoltsVersion.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3469BCA923727C7871E5A370 /* Pods-IronTips */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A7849B4BAB82DE6D89E7841 /* Build configuration list for PBXNativeTarget "Pods-IronTips" */;
+			buildPhases = (
+				120E5EC6555727CDC9F98AC0 /* Sources */,
+				F4CAAE8AB1693E27E9FCFA22 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDCF7427D7B139FE0AB37760 /* PBXTargetDependency */,
+			);
+			name = "Pods-IronTips";
+			productName = "Pods-IronTips";
+			productReference = 66A5AF2D9810968AB71B6795 /* libPods-IronTips.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		B8C48107EAF26EBF8A6E2C0C /* Pods-IronTips-Bolts */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F54F8E2343924957DD19BC35 /* Build configuration list for PBXNativeTarget "Pods-IronTips-Bolts" */;
+			buildPhases = (
+				25B9FC49E9E8D45DDCA8942D /* Sources */,
+				A0D6682ADC16D9A1C0F2A9FF /* Frameworks */,
+				FA375FAD9FA6895A3DB8E1E1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-IronTips-Bolts";
+			productName = "Pods-IronTips-Bolts";
+			productReference = EB5AE3090D8EFD88A34B3D47 /* libPods-IronTips-Bolts.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BB7DB6480141F137E9BD8E58 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = 901FA8F5231796C874F8201B /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2629BA9F88C394EA13F77C9B;
+			productRefGroup = 24EC3FE38D93419D7454E702 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3469BCA923727C7871E5A370 /* Pods-IronTips */,
+				B8C48107EAF26EBF8A6E2C0C /* Pods-IronTips-Bolts */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		120E5EC6555727CDC9F98AC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E45F00B10430F4D3EC5ADFF /* Pods-IronTips-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25B9FC49E9E8D45DDCA8942D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FE125D97A88444D45DA08C2 /* BFAppLink.m in Sources */,
+				57F8774313E7D127351F366E /* BFAppLinkNavigation.m in Sources */,
+				AF587A951AC0433DF22CD499 /* BFAppLinkReturnToRefererController.m in Sources */,
+				BE4BC7ABAE206B92693289D0 /* BFAppLinkReturnToRefererView.m in Sources */,
+				63917AF920956C340E9DE9B6 /* BFAppLinkTarget.m in Sources */,
+				89CDFB3846263CE2D3A5728B /* BFExecutor.m in Sources */,
+				1BF2A4332D95600BD259ABC8 /* BFMeasurementEvent.m in Sources */,
+				1A91BA5FA50B89E14CFB9345 /* BFTask.m in Sources */,
+				8F341A58CC3B0376F584B0CA /* BFTaskCompletionSource.m in Sources */,
+				66A1DD7421BA32AF10A92F4C /* BFURL.m in Sources */,
+				1A3F8F1C975C359A48DA361B /* BFWebViewAppLinkResolver.m in Sources */,
+				48A965D8C2181ABC412D14FB /* Bolts.m in Sources */,
+				EC4050B6DA1B6F710A8F138B /* Pods-IronTips-Bolts-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DDCF7427D7B139FE0AB37760 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-IronTips-Bolts";
+			target = B8C48107EAF26EBF8A6E2C0C /* Pods-IronTips-Bolts */;
+			targetProxy = B3372CF8478477DD178DEBB0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1EFF9D6BA3E66BD1702F8C93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		305529717A79DFFC93D0EF7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		81C7117767B3BD056A8302F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AEC74B354403953E2738217E /* Pods-IronTips.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		B0F6915D47BA5A2FC614B716 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 084C7DBE07D658F5C05B20A2 /* Pods-IronTips-Bolts-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-IronTips-Bolts/Pods-IronTips-Bolts-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		B2BEC27CD5FD137C78885EE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 084C7DBE07D658F5C05B20A2 /* Pods-IronTips-Bolts-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-IronTips-Bolts/Pods-IronTips-Bolts-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		B8F17746FCC74898071789DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F51CE4E02FDAD31E7D6ACE9F /* Pods-IronTips.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		901FA8F5231796C874F8201B /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EFF9D6BA3E66BD1702F8C93 /* Debug */,
+				305529717A79DFFC93D0EF7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A7849B4BAB82DE6D89E7841 /* Build configuration list for PBXNativeTarget "Pods-IronTips" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8F17746FCC74898071789DB /* Debug */,
+				81C7117767B3BD056A8302F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F54F8E2343924957DD19BC35 /* Build configuration list for PBXNativeTarget "Pods-IronTips-Bolts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2BEC27CD5FD137C78885EE6 /* Debug */,
+				B0F6915D47BA5A2FC614B716 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BB7DB6480141F137E9BD8E58 /* Project object */;
+}

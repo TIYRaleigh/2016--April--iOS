@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Full Name" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="CeJ-l4-5Ps" userLabel="Name TextField">
+                                <rect key="frame" x="200" y="28" width="200" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="Bud-L2-cEw"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hTy-qD-FaC" userLabel="Message Label">
+                                <rect key="frame" x="279" y="78" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eYr-ku-eDZ">
+                                <rect key="frame" x="277" y="119" width="46" height="30"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonTapped:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="u7M-Ir-sC1"/>
+                                </connections>
+                            </button>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vQ6-7r-tIe" userLabel="Color Switch">
+                                <rect key="frame" x="276" y="169" width="51" height="31"/>
+                                <connections>
+                                    <action selector="switchValueChanged:" destination="vXZ-lx-hvc" eventType="valueChanged" id="ZM4-vp-HTJ"/>
+                                </connections>
+                            </switch>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="eYr-ku-eDZ" firstAttribute="centerX" secondItem="hTy-qD-FaC" secondAttribute="centerX" id="KvD-kK-pSR"/>
+                            <constraint firstAttribute="centerX" secondItem="CeJ-l4-5Ps" secondAttribute="centerX" id="N6u-Pt-BHN"/>
+                            <constraint firstItem="eYr-ku-eDZ" firstAttribute="centerX" secondItem="vQ6-7r-tIe" secondAttribute="centerX" id="YCb-72-ATS"/>
+                            <constraint firstItem="CeJ-l4-5Ps" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="8" id="brc-Im-FEy"/>
+                            <constraint firstItem="vQ6-7r-tIe" firstAttribute="top" secondItem="eYr-ku-eDZ" secondAttribute="bottom" constant="20" id="dS8-oK-rcP"/>
+                            <constraint firstItem="eYr-ku-eDZ" firstAttribute="top" secondItem="hTy-qD-FaC" secondAttribute="bottom" constant="20" id="epe-xd-1BT"/>
+                            <constraint firstItem="hTy-qD-FaC" firstAttribute="top" secondItem="CeJ-l4-5Ps" secondAttribute="bottom" constant="20" id="qa4-JT-f5q"/>
+                            <constraint firstItem="CeJ-l4-5Ps" firstAttribute="centerX" secondItem="hTy-qD-FaC" secondAttribute="centerX" id="wlE-vl-l1D"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="button" destination="eYr-ku-eDZ" id="Dqp-l2-eQ5"/>
+                        <outlet property="colorSwitch" destination="vQ6-7r-tIe" id="JCS-ej-xIf"/>
+                        <outlet property="messageLabel" destination="hTy-qD-FaC" id="6CX-0P-wX6"/>
+                        <outlet property="nameTextField" destination="CeJ-l4-5Ps" id="HlF-xW-8hU"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="444" y="453"/>
+        </scene>
+    </scenes>
+</document>
