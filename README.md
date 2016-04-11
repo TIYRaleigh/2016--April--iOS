@@ -10,7 +10,7 @@ Feel free to reach out to me on Slack once the class starts with any questions y
 
 You're all on your way to being iOS developers!
 
-###### Ben | [jgohlke.com](http://www.jgohlke.com)
+###### Jeff
 
-* Twitter: [@akhenaten](http://www.twitter.com/akhenaten)
-* Github: [@jcgohlke](http://www.github.com/jcgohlke)
+* Twitter: [@jeffro_ligon](http://www.twitter.com/jeffro_ligon)
+* Github: [@jtligon](http://www.github.com/jtligon)
